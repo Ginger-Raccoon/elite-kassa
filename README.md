@@ -11,7 +11,8 @@ The setup of the projects on React js with descriptions, linters, e.t.c
 - [x] SVG-loader
 - [x] Husky
 - [x] Prettier
-- [ ] i18n
+- [x] i18n
+- [ ] odevlib api integrations
 
 Additional comments:
   **designed to use the [fsd](https://feature-sliced.design/ru/docs/get-started/overview) methodology**
