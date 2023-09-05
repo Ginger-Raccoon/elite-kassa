@@ -1,7 +1,5 @@
-import s from './HomePage.module.scss';
+import { type JSX } from 'react'
 
-export const HomePage = () => {
-  return (
-    <p>HomePage</p>
-  );
-};
+export const HomePage = (): JSX.Element => {
+  return <p>HomePage</p>
+}

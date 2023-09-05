@@ -7,13 +7,19 @@
     "jsx": "react-jsx",
     "allowJs": true,
     "moduleResolution": "node",
-    "baseUrl": ".",
+    "baseUrl": "./src",
+    "strictNullChecks": true,
     "paths": {
-      "*": ["./src/*"]
+      "@shared": ["/shared/*"],
+      "@entities": ["/entities/*"],
+      "@features": ["/features/*"],
+      "@widgets": ["/widgets/*"],
+      "@pages": ["/pages/*"],
+      "@app": ["/app/*"],
     },
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
-    "resolveJsonModule": true,
+    "resolveJsonModule": true
   },
   "ts-node": {
     "compilerOptions": {

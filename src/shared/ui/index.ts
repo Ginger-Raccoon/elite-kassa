@@ -1,5 +1,3 @@
-import SVGSymbol from './SVGSymbol/SVGSymbol';
+import SVGSymbol from './SVGSymbol/SVGSymbol'
 
-export {
-  SVGSymbol
-};
+export { SVGSymbol }
