@@ -68,6 +68,6 @@
     }
   },
   "lint-staged": {
-    "./src/**/*.{tsx,ts}": "npm run 'lint:ts:fix'"
+    "src/*.{tsx,ts}": "npm run 'lint:ts:fix'"
   }
 }
