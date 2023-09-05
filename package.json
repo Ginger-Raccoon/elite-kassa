@@ -8,8 +8,9 @@
     "start": "webpack serve --env port=3000",
     "build:prod": "webpack --env mode=production",
     "build:dev": "webpack --env mode=development",
-    "lint:ts": "eslint \"**/*.{ts,tsx}\"",
-    "lint:ts:fix": "eslint \"**/*.{ts,tsx}\" --fix --color",
+    "lint:ts": "eslint \"src/**/*.{ts,tsx}\"",
+    "lint:ts:fix": "eslint \"src/**/*.{ts,tsx}\" --fix --color",
+    "format": "",
     "prepare": "husky install"
   },
   "keywords": [],
@@ -64,7 +65,7 @@
     "react-router-dom": "^6.2.1"
   },
   "lint-staged": {
-    "*.{tsx,ts,css}": "prettier --write",
-    "*.{ts,tsx}": "npm run lint:ts:fix"
+    "src/**/*.{tsx,ts,css}": "prettier --write",
+    "src/**/*.{ts,tsx}": "npm run lint:ts:fix"
   }
 }

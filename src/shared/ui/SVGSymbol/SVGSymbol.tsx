@@ -8,7 +8,7 @@ interface IProps {
 
 const SVGSymbol = ({ name, classNames, ...props }: IProps) => {
   const SVG = useMemo(
-    () => React.lazy(() => import(`../assets/${name}.svg`)),
+    () => React.lazy(async () => await import(`../assets/${name}.svg`)),
     [name],
   )
   return (
