@@ -9,7 +9,8 @@
     "build:prod": "webpack --env mode=production",
     "build:dev": "webpack --env mode=development",
     "lint:ts": "eslint \"**/*.{ts,tsx}\"",
-    "lint:ts:fix": "eslint \"**/*.{ts,tsx}\" --fix --color"
+    "lint:ts:fix": "eslint \"**/*.{ts,tsx}\" --fix --color",
+    "prepare": "husky install"
   },
   "keywords": [],
   "author": "",
@@ -38,7 +39,7 @@
     "eslint-plugin-react": "^7.33.2",
     "file-loader": "^6.2.0",
     "html-webpack-plugin": "^5.5.0",
-    "husky": "^8.0.3",
+    "husky": "^8.0.0",
     "lint-staged": "^14.0.1",
     "mini-css-extract-plugin": "^2.5.3",
     "prettier": "^3.0.3",
@@ -62,12 +63,8 @@
     "react-i18next": "^11.15.5",
     "react-router-dom": "^6.2.1"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
   "lint-staged": {
-    "src/*.{tsx,ts}": "eslint \"**/*.{ts,tsx}\" --fix --color"
+    "src/**/*.{tsx,ts,css}": "prettier --write",
+    "src/**/*.{ts,tsx}": "eslint"
   }
 }
