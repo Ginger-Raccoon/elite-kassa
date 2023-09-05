@@ -63,11 +63,6 @@
     "react-i18next": "^11.15.5",
     "react-router-dom": "^6.2.1"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
   "lint-staged": {
     "*.{tsx,ts,css}": "prettier --write",
     "*.{ts,tsx}": "npm run lint:ts:fix"
