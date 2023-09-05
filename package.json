@@ -10,7 +10,7 @@
     "build:dev": "webpack --env mode=development",
     "lint:ts": "eslint \"src/**/*.{ts,tsx}\"",
     "lint:ts:fix": "eslint \"src/**/*.{ts,tsx}\" --fix --color",
-    "format": "",
+    "format": "prettier --write",
     "prepare": "husky install"
   },
   "keywords": [],
@@ -65,7 +65,7 @@
     "react-router-dom": "^6.2.1"
   },
   "lint-staged": {
-    "src/**/*.{tsx,ts,css}": "prettier --write",
+    "src/**/*.{tsx,ts,css}": "npm run format",
     "src/**/*.{ts,tsx}": "npm run lint:ts:fix"
   }
 }
