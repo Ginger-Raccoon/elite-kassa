@@ -4,6 +4,7 @@ import { AppRouter } from 'app/providers/router'
 
 const App = () => {
   console.log('error')
+  console.log('error')
   return (
     <>
       <AppRouter />
