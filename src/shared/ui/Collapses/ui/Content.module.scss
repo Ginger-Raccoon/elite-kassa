@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: var(--black);
+}
+
+.header {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.main {
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.img {
+  border: 1px solid var(--grey);
+  border-radius: 10px;
+  background-color: var(--cold-grey);
+  min-width: 100px;
+  min-height: 100px;
+}

@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 24px 0 20px 22px;
+}
+
+.table__controls {
+  display: flex;
+  gap: 8px;
+}
+
+.data__controls > .refresh {
+  border: 1px solid var(--green);
+}

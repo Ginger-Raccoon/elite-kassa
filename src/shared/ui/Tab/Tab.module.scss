@@ -1,0 +1,32 @@
+.label {
+  display: inline-block;
+  cursor: pointer;
+  padding: 7.5px 10px;
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--dark-grey);
+  line-height: 17px;
+  border: 1px solid var(--cold-grey);
+  border-radius: 8px;
+  user-select: none;
+  white-space: nowrap;
+
+  &:hover {
+    color: #666;
+  }
+
+  &_checked {
+    color: var(--black);
+    font-weight: 600;
+  }
+
+  &_disabled {
+    background: #efefef;
+    color: #666;
+  }
+
+}
+
+.input {
+  display: none;
+}

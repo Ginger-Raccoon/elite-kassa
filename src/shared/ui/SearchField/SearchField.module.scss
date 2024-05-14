@@ -1,0 +1,20 @@
+.input {
+  border-color: var(--cold-grey);
+
+  &:hover {
+    border-color: var(--cold-grey);
+    background-color: var(--white-01);
+  }
+
+  &:active {
+    border-color: var(--cold-grey);
+    outline: none;
+    box-shadow: none;
+  }
+
+  &:focus {
+    border-color: var(--cold-grey);
+    outline: none;
+    box-shadow: none;
+  }
+}

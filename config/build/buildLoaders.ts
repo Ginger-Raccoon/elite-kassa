@@ -64,6 +64,9 @@ export function buildLoaders(option: BuildOptions): webpack.RuleSetRule[] {
     use: [
       {
         loader: 'file-loader',
+        options: {
+          name: '[path][name].[ext]', // Опция для определения структуры папок и имен файлов
+        },
       },
     ],
   }

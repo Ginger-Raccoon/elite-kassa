@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 17px;
+  border-bottom: 1px solid var(--grey);
+}
+
+.title {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.info {
+  display: flex;
+  margin: 17px 0;
+}
+
+.contact {
+  font-size: 12px;
+}
+
+.separator {
+  border-left: 1px solid var(--grey);
+  margin: 0 20px;
+}

@@ -1,0 +1,44 @@
+.container {
+  padding: 0 22px;
+}
+
+.table {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr min-content;
+  background-color: var(--white-01);
+  border-radius: 12px;
+  border: 2px solid var(--cold-grey);
+  padding: 10px 14px 10px 14px;
+
+  &__cell {
+    padding: 8px 15px;
+    border-bottom: 1px solid var(--cold-grey);
+    display: flex;
+    align-items: center;
+
+    &:nth-last-child(-n+5) {
+      border: none;
+    }
+
+    &_header {
+      display: flex;
+      align-items: center;
+      border: none;
+      font-size: 14px;
+      font-weight: 400;
+      color: var(--grey);
+    }
+  }
+
+  &__buttons {
+    display: flex;
+    gap: 6px;
+  }
+}
+
+.column__name {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}

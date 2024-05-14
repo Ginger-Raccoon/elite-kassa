@@ -1,4 +1,4 @@
-# O-React-Setup
+# React-Setup
 
 The setup of the projects on React js with descriptions, linters, e.t.c
 
@@ -12,7 +12,6 @@ The setup of the projects on React js with descriptions, linters, e.t.c
 - [x] Husky
 - [x] Prettier
 - [x] i18n
-- [ ] odevlib api integrations
 
 Additional comments:
   **designed to use the [fsd](https://feature-sliced.design/ru/docs/get-started/overview) methodology**

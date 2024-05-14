@@ -1,0 +1,22 @@
+.container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--grey-for-mail-alert);
+  border: 1px solid var(--cold-grey);
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+}
+
+.alert {
+  position: absolute;
+  top: -1px;
+  right: -3px;
+  border: 1px solid var(--white);
+  border-radius: 50%;
+  background-color: var(--red);
+  width: 10px;
+  height: 10px;
+}

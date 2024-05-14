@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 24px 20px 13px 22px;
+}
+
+.table__controls {
+  display: flex;
+  gap: 8px;
+}
+
+.data__controls {
+  display: flex;
+  gap: 12px;
+}
+
+.filter {
+}
+
+.data__controls > .refresh {
+  border: 1px solid var(--green);
+}
