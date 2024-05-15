@@ -10,7 +10,7 @@
     "deploy": "gh-pages -d build",
     "start": "webpack serve --env port=3000",
     "build:prod": "webpack --env mode=production",
-    "build:dev": "webpack --env mode=development",
+    "build": "webpack --env mode=development",
     "lint:ts": "eslint \"src/**/*.{ts,tsx}\"",
     "lint:ts:fix": "eslint \"src/**/*.{ts,tsx}\" --fix --color",
     "format": "prettier --write",
